@@ -1,0 +1,9 @@
+torch
+transformers>=4.51   # Qwen3 판정(01·02)에 필요
+accelerate
+pandas
+numpy
+scikit-learn
+openpyxl
+tqdm
+# bitsandbytes       # T4처럼 메모리가 작은 GPU에서 Qwen을 4비트로 돌릴 때만

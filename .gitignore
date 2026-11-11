@@ -1,0 +1,25 @@
+# AI Hub 데이터와 데이터에서 만든 파일 (재배포 금지)
+data_in/
+data/
+judge/
+*.pkl
+*.npz
+*.npy
+*.xlsx
+검수_*.txt
+
+# 모델 가중치 (약 450MB, 따로 배포)
+models/
+*.pt
+*.bin
+*.safetensors
+
+# 비밀 값
+.env
+
+# 기타
+__pycache__/
+*.pyc
+*.bak
+.ipynb_checkpoints/
+.DS_Store
